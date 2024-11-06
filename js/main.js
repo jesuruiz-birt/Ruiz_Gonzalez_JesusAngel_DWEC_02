@@ -124,7 +124,6 @@ function guardarGasto(event) {
     gastosRecientes += document.getElementById('expense-list').innerHTML = `<li>${gastoJSON}</li>`;
 
     console.log(typeof gastosRecientes);
-    console.log(typeof gastosRecientesAnio);
     
     document.getElementById('expense-list').innerHTML = gastosRecientes;
 
